@@ -8,10 +8,19 @@ No API keys, companion modules, dashboard CSS, or extra npm packages are needed.
 
 ## Installation
 
-This is a local release candidate; no public repository URL has been assigned.
-Copy this folder to `MagicMirror/modules/MMM-EventCountdown`. No `npm install` is
-required. Copy `countdowns.example.json` to `MagicMirror/config/countdowns.json`
-and replace the synthetic dates with your own local data. Keep that data private.
+From your MagicMirror installation directory:
+
+```sh
+cd modules
+git clone https://github.com/QuietNodeLab/MMM-EventCountdown.git
+cd MMM-EventCountdown
+cp countdowns.example.json ../../config/countdowns.json
+```
+
+No `npm install` is required. On Windows, copy the example file with your file
+manager or PowerShell. Replace its synthetic dates with your own local data and
+keep that data private. You can also download the repository ZIP and place its
+contents in `MagicMirror/modules/MMM-EventCountdown`.
 
 Add to the `modules` array in `config/config.js`:
 

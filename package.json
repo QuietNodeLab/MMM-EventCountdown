@@ -4,9 +4,15 @@
   "private": true,
   "description": "Standalone MagicMirror event and holiday countdown cards",
   "license": "MIT",
-  "engines": { "node": ">=24" },
+  "engines": {
+    "node": ">=24"
+  },
   "scripts": {
     "check": "node --check MMM-EventCountdown.js && node --check countdown-logic.js && node --check node_helper.js",
     "test": "npm run check && node --test tests/*.test.cjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/QuietNodeLab/MMM-EventCountdown.git"
   }
 }
