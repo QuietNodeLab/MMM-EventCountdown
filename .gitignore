@@ -1,0 +1,7 @@
+node_modules/
+countdowns.json
+*.local.json
+.env
+.env.*
+*.log
+.DS_Store

@@ -1,0 +1,7 @@
+{
+  "holidays": ["halloween", "thanksgiving"],
+  "events": [
+    {"name": "Sample trip", "start": "2030-06-01", "end": "2030-06-03", "color": "#4FC3F7"},
+    {"name": "Community picnic", "date": "2030-07-12", "color": "#81C784"}
+  ]
+}

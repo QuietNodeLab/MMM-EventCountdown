@@ -1,0 +1,94 @@
+.MMM-EventCountdown .cd-card {
+  width: 480px;
+  max-width: 100%;
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 10px 16px 12px;
+  text-align: left;
+  background: rgba(255, 255, 255, 0.07);
+  border-left: 6px solid #b388ff;
+  border-radius: 16px;
+}
+
+.MMM-EventCountdown .cd-title {
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #999;
+}
+
+.MMM-EventCountdown .cd-row {
+  display: flex;
+  align-items: center;
+  margin-top: 8px;
+}
+
+.MMM-EventCountdown .cd-when {
+  flex: 0 0 116px;
+  text-align: center;
+  line-height: 1;
+}
+
+.MMM-EventCountdown .cd-big {
+  font-size: 36px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.MMM-EventCountdown .cd-big.cd-word {
+  font-size: 24px;
+}
+
+.MMM-EventCountdown .cd-unit {
+  margin-top: 3px;
+  font-size: 14px;
+  color: #aaa;
+}
+
+.MMM-EventCountdown .cd-text {
+  flex: 1;
+  margin-left: 10px;
+  padding-left: 12px;
+  border-left: 4px solid #b388ff;
+}
+
+.MMM-EventCountdown .cd-name {
+  font-size: 20px;
+  line-height: 1.15;
+  color: #fff;
+}
+
+.MMM-EventCountdown .cd-date {
+  font-size: 14px;
+  color: #aaa;
+}
+
+.MMM-EventCountdown .cd-now .cd-big {
+  color: #ffcc66;
+}
+
+.MMM-EventCountdown .cd-none {
+  margin-top: 6px;
+  font-size: 18px;
+  color: #bbb;
+}
+
+.MMM-EventCountdown .cd-msg {
+  font-size: 14px;
+  color: #ff8a80;
+}
+
+/* Standalone styling: no dashboard stylesheet is required. */
+.MMM-EventCountdown .countdown { max-width: 100%; }
+.MMM-EventCountdown .cd-card { width: 480px; max-width: 100%; }
+.MMM-EventCountdown .cd-text { min-width: 0; }
+.MMM-EventCountdown .cd-name { display: flex; align-items: center; gap: 8px; }
+.MMM-EventCountdown .cd-emoji { flex: 0 0 auto; line-height: 1; }
+.MMM-EventCountdown .cd-label { min-width: 0; overflow-wrap: anywhere; }
+.MMM-EventCountdown .cd-date { overflow-wrap: anywhere; }
+@media (max-width: 600px) {
+  .MMM-EventCountdown .cd-card { padding: 10px; }
+  .MMM-EventCountdown .cd-when { flex-basis: 88px; }
+  .MMM-EventCountdown .cd-word { font-size: 19px !important; }
+  .MMM-EventCountdown .cd-name { font-size: 17px; }
+}
